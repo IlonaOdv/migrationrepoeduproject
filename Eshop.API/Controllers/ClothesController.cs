@@ -1,11 +1,11 @@
-﻿using Eshop.BLL.DTO;
+﻿using Eshop.BLL.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Eshop.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ClothesController
+    public class ClothesController : ControllerBase
     {
         [HttpGet("listofofferedclothes")]
         public List<GoodsDTO> ListOfOfferedClothes() => throw new NotImplementedException();

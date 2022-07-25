@@ -1,6 +1,6 @@
 ﻿namespace Eshop.DAL.Repositories
 {
-    internal class CategoryRepository
+    public class CategoryRepository
     {
     }
 }

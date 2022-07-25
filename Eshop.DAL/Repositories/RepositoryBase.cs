@@ -1,6 +1,6 @@
 ﻿namespace Eshop.DAL.Repositories
 {
-    internal class RepositoryBase
+    public abstract class RepositoryBase
     {
     }
 }

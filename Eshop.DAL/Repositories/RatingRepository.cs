@@ -1,6 +1,6 @@
 ﻿namespace Eshop.DAL.Repositories
 {
-    internal class RatingRepository
+    public class RatingRepository
     {
     }
 }
