@@ -5,7 +5,7 @@
         public string? Name { get; set; }
         public byte[]? Photo { get; set; }
         public string? Description { get; set; }
-        public double Prize { get; set; }
+        public double Price { get; set; }
         public double Weight { get; set; }
         public int AvailableItems { get; set; }
         public string? Category { get; set; }
