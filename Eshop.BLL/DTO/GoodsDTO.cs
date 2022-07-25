@@ -1,4 +1,4 @@
-﻿namespace Eshop.BLL.DTO
+﻿namespace Eshop.BLL.DTOs
 {
     public record GoodsDTO
     {

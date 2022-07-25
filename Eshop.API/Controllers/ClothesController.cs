@@ -5,7 +5,7 @@ namespace Eshop.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ClothesController
+    public class ClothesController : ControllerBase
     {
         [HttpGet("listofofferedclothes")]
         public List<GoodsDTO> ListOfOfferedClothes() => throw new NotImplementedException();
@@ -16,7 +16,7 @@ namespace Eshop.API.Controllers
         [HttpPut("updateanalreadyaddedclothes")]
         public void UpdateAnAlreadyAddedClothes() => throw new NotImplementedException();
 
-        [HttpDelete("deleteclothes")]
+        [HttpDelete("{id}")]
         public void DeleteClothes() => throw new NotImplementedException();
     }
 }
