@@ -7,16 +7,19 @@ namespace Eshop.API.Controllers
     [Route("[controller]")]
     public class ShoesController : ControllerBase
     {
-        [HttpGet("listofofferedshoes")]
-        public List<GoodsDTO> ListOfOfferedShoes() => throw new NotImplementedException();
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<GoodsDTO>>> GetAllAsync() => throw new NotImplementedException();
 
-        [HttpPost("addnewshoes")]
-        public void AddNewShoes() => throw new NotImplementedException();
+        [HttpGet("{id}")]
+        public async Task<ActionResult<IEnumerable<GoodsDTO>>> GetByIdAsync() => throw new NotImplementedException();
 
-        [HttpPut("updateanalreadyaddedshoes")]
-        public void UpdateAnAlreadyAddedShoes() => throw new NotImplementedException();
+        [HttpPost]
+        public async Task<IActionResult> AddAsync() => throw new NotImplementedException();
 
-        [HttpDelete("deleteshoes")]
-        public void DeleteShoes() => throw new NotImplementedException();
+        [HttpPut]
+        public async Task<IActionResult> UpdateAsync() => throw new NotImplementedException();
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id) => throw new NotImplementedException();
     }
 }
