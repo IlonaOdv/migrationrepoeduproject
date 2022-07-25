@@ -16,7 +16,7 @@ namespace Eshop.API.Controllers
         [HttpPut("updateanalreadyaddedclothes")]
         public void UpdateAnAlreadyAddedClothes() => throw new NotImplementedException();
 
-        [HttpDelete("deleteclothes")]
+        [HttpDelete("{id}")]
         public void DeleteClothes() => throw new NotImplementedException();
     }
 }
