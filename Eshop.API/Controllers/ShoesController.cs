@@ -11,7 +11,7 @@ namespace Eshop.API.Controllers
         public async Task<ActionResult<IEnumerable<GoodsDTO>>> GetAllAsync() => throw new NotImplementedException();
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<GoodsDTO>>> GetByIdAsync() => throw new NotImplementedException();
+        public async Task<ActionResult<GoodsDTO>> GetByIdAsync() => throw new NotImplementedException();
 
         [HttpPost]
         public async Task<IActionResult> AddAsync() => throw new NotImplementedException();
