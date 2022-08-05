@@ -1,6 +1,8 @@
-﻿namespace Eshop.DAL.Entities
+﻿using Eshop.DAL.Entities;
+
+namespace Eshop.BLL.DTOs
 {
-    public class GoodsEntity : EntityBase
+    public record GoodsDetailDTO
     {
         public string Name { get; set; }
         public byte[] Photo { get; set; }

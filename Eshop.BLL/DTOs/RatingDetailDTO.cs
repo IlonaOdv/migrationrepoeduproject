@@ -1,6 +1,6 @@
-﻿namespace Eshop.DAL.Entities
+﻿namespace Eshop.BLL.DTOs
 {
-    public class RatingEntity : EntityBase
+    public record class RatingDetailDTO
     {
         public string Rater { get; set; }
         public DateTime RatingTime { get; set; }

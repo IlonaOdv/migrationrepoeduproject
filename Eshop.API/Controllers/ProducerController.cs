@@ -5,13 +5,13 @@ namespace Eshop.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ClothesController : ControllerBase
+    public class ProducerController : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<GoodsDTO>>> GetAllAsync() => throw new NotImplementedException();
+        public async Task<ActionResult<IEnumerable<ProducerListDTO>>> GetAllAsync() => throw new NotImplementedException();
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<GoodsDTO>> GetByIdAsync() => throw new NotImplementedException();
+        public async Task<ActionResult<ProducerDetailDTO>> GetByIdAsync() => throw new NotImplementedException();
 
         [HttpPost]
         public async Task<IActionResult> AddAsync() => throw new NotImplementedException();
