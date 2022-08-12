@@ -1,7 +1,8 @@
 ﻿namespace Eshop.BLL.DTOs
 {
-    public record class RatingListDTO
+    public record RatingListDTO
     {
-        public int NumericRating { get; set; }
+        public int ID { get; init; }
+        public int NumericRating { get; init; }
     }
 }

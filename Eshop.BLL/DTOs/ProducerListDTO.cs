@@ -1,9 +1,10 @@
 ﻿namespace Eshop.BLL.DTOs
 {
-    public record class ProducerListDTO
+    public record ProducerListDTO
     {
-        public string Name { get; set; }
-        public byte[] Image { get; set; }
-        public string Country { get; set; }
+        public int ID { get; init; }
+        public string Name { get; init; }
+        public byte[] Image { get; init; }
+        public string Country { get; init; }
     }
 }

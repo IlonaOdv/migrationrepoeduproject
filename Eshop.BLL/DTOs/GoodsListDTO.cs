@@ -2,12 +2,13 @@
 
 namespace Eshop.BLL.DTOs
 {
-    public record class GoodsListDTO
+    public record GoodsListDTO
     {
-        public string Name { get; set; }
-        public byte[] Photo { get; set; }
-        public double Price { get; set; }
-        public CategoryEntity Category { get; set; }
-        public string Currency { get; set; }
+        public int ID { get; init; }
+        public string Name { get; init; }
+        public byte[] Photo { get; init; }
+        public double Price { get; init; }
+        public CategoryEntity Category { get; init; }
+        public string Currency { get; init; }
     }
 }

@@ -2,9 +2,8 @@
 
 namespace Eshop.BLL.DTOs
 {
-    public record GoodsDetailDTO
+    public record CreateGoodsDetailDTO
     {
-        public int ID { get; init; }
         public string Name { get; init; }
         public byte[] Photo { get; init; }
         public string Description { get; init; }
