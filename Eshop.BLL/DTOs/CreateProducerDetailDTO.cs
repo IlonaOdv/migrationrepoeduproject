@@ -1,6 +1,6 @@
 ﻿namespace Eshop.BLL.DTOs
 {
-    public record CreateProducerDetailDTO
+    public record CreateProducerDTO
     {
         public string Name { get; init; }
         public string Description { get; init; }
