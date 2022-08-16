@@ -14,7 +14,7 @@ namespace Eshop.API.Controllers
         public async Task<ActionResult<GoodsDetailDTO>> GetByIdAsync(int id) => throw new NotImplementedException();
 
         [HttpPost]
-        public async Task<IActionResult> AddAsync(CreateGoodsDetailDTO data) => throw new NotImplementedException();
+        public async Task<IActionResult> AddAsync(CreateGoodsDTO data) => throw new NotImplementedException();
 
         [HttpPut]
         public async Task<IActionResult> UpdateAsync(GoodsDetailDTO data) => throw new NotImplementedException();

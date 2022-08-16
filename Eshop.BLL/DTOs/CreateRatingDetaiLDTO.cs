@@ -1,6 +1,6 @@
 ﻿namespace Eshop.BLL.DTOs
 {
-    public record CreateRatingDetailDTO
+    public record CreateRatingDTO
     {
         public string Rater { get; init; }
         public DateTime RatingTime { get; init; }

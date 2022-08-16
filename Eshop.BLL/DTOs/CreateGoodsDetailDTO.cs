@@ -2,7 +2,7 @@
 
 namespace Eshop.BLL.DTOs
 {
-    public record CreateGoodsDetailDTO
+    public record CreateGoodsDTO
     {
         public string Name { get; init; }
         public byte[] Photo { get; init; }
