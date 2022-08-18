@@ -8,9 +8,9 @@
         public double Price { get; set; }
         public double Weight { get; set; }
         public int AvailableItems { get; set; }
-        public string Category { get; set; }
-        public string Producer { get; set; }
-        public int Rating { get; set; }
+        public CategoryEntity Category { get; set; }
+        public ProducerEntity Producer { get; set; }
+        public List<RatingEntity> Ratings { get; set; }
         public string Size { get; set; }
         public string Color { get; set; }
         public string Currency { get; set; }
